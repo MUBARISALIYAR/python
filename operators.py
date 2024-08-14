@@ -95,3 +95,80 @@ print(10<=15)
 # greater than or equal to 
 
 print(10>=10)
+
+                                                # LOGICAL OPERATORS 
+
+# and
+
+print(10==10 and 10<=9)   
+
+            # true     true  = true 
+            # false    true  = false
+            # true     false = false 
+            # false    false = false                                        
+
+
+# or 
+
+print(10==10 or 10<=9)
+
+            # true     true  = true 
+            # false    true  = true 
+            # true     false = true 
+            # false    false = false  
+            
+# not 
+
+print(not(10==10))
+
+            # true  = false
+            # false = true                                     
+                           
+
+                                                # MEMBERSHIP OPERATORS
+
+# in 
+
+a='mubaris'
+b='h'
+print( b in a)
+print('h' in b)
+
+# not in 
+
+a=[1,2,3]
+b=[[1,2,3],[4,5,6,7]]
+print(b not in a)
+print(a not in b)
+
+
+                                                # IDENTITY OPERATORS (compares the id of memory location )
+
+# IS 
+
+a=10
+b=10
+print(id(a))
+print(id(b))
+print(a is b)
+
+a=[1,2]
+b=[1,2]
+print(id(a))
+print(id(b))
+print(a is b)
+
+
+# is not
+
+a=10
+b=10
+print(id(a))
+print(id(b))
+print(a is not b)
+
+a=[1,2]
+b=[1,2]
+print(id(a))
+print(id(b))
+print(a is not b)
